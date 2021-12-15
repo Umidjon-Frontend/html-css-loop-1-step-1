@@ -2,7 +2,7 @@ body {
   background-color: #41c3eb;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  margin: 200px auto;
+  margin: 100px auto;
 
 }
 * {
@@ -66,13 +66,13 @@ body {
 
 @media only screen and (max-width: 992px) {
   .box {
-    width: 90%;
+    width: 95%;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .box {
-    width: 50%;
+    width: 95%;
   }
   .box-items {
     display: flex;
@@ -87,6 +87,6 @@ body {
 
 @media only screen and (max-width: 576px) {
     .box {
-        width: 90%;
+        width: 95%;
       }
 }
