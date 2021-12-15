@@ -1,0 +1,92 @@
+body {
+  background-color: #41c3eb;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin: 200px auto;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px #666;
+  border-radius: 5px;
+  padding: 25px;
+}
+.box-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.box-items .box-item {
+  width: 33.33%;
+  text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.box-items .box-item .img-wrapper {
+  padding: 20px 0 30px 0;
+}
+.box-items .box-item .img-wrapper img {
+  width: 100px;
+}
+.box-items .box-item .title {
+  color: #4169eb;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.box-items .box-item .text {
+  color: #969696;
+  margin-bottom: 20px;
+}
+.box-items .box-item .price {
+  color: #4169eb;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.box-items .box-item .dollor {
+  font-size: 18px;
+}
+.box-items .box-item .month {
+  font-size: 18px;
+}
+.box-items .box-item:hover {
+  background-color: #ececec;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  .box {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 50%;
+  }
+  .box-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-items .box-item {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+    .box {
+        width: 90%;
+      }
+}
